@@ -26,8 +26,8 @@ This practice has the following HTML concepts:
   - '<head>': Contains metadata such as the document title and external resources
   - '<title>': Defines the name shown in the browser tab
   - '<link>': Used to link favicon files
-  - '<blockquote>': Represents a long quotation taken from an external source or webpage. It doesn´t display the quotated text (it has to be added by CSS)
-  - '<q>': Define a short inline quotation inside a paragraph. It can display the quotated text by default
+  - '<blockquote>': Represents a long quotation taken from an external source or webpage. It doesn´t display the quoted text (it has to be added by CSS)
+  - '<q>': Define a short inline quotation inside a paragraph. It can display the quoted text by default
   - '<abbr>': Define the abbreviation and it allows the user its full meaning using the 'title' atribute. Generally used for acronyms
   - '<bdo>': Overrides the text direction using the 'dir' atribute and the values 'rtl' and 'ltr'. Generally used for foreing languages like arabic and Hebrew
 

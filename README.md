@@ -4,39 +4,40 @@ in this page I will add all I have learned from udemy´s course and coddy to mak
 
 # ver 1.0 
 
-In this case I have added the tags:  
--(blockqoute) 
-this tag is used to make large quotation in text blocks and it is not used inside paragraphs because it has its own content, it can destroy the flow of the text.
--(q)
-is used to quote inline words, you can use it to quote phrases inside pragraphs without creating other paragraphs and destroying the flow of the text.
--(abbr)
-is used to make abbreviation of acronyms, like MDN (moxila developer network) 
--(bdo) 
-is used to change the direction text using the atribute dir and the values rtl and ltr. It is used for other languages to write in the correct order 
--(head)
-is used to give information about the html document, like: scripts, favicons, and other metadata information
--(link)
-is used to connect favicons or CSS styles in the head tag. 
+# HTML Head and Text Formatting Practice 
 
-I also added these atributes:
+This version is a learning excersice focused on understanding how HTML can
+support document metadata and semantic text formatting.
 
-# for link tag
--rel:  this atribute is used to referece the linked file with the current document
--type indicate the format of the linked file using the MIME  standard, type/subtype
+## Concepts I have practiced
 
--sizes it can change the size of the image, is useful when you want to desing a responsive favicon on your web page
+This practice has the following HTML concepts:
 
--href it can use the URL of the linked file
+- Proper use of the '<head>' element
+- Defining a descriptive '<title>'
+- Linking external resources using '<link>'
+- Use of favicons with different formats and sizes for other browsers
+- Semantic text tags for quotations, abbreviations, text directions, paragraphs, header and main
 
-# for q and blockqoute tags
+  ## HTML tag used
 
--cite  , it is used for linking the URL of the external web you have quotated 
+  Are the following:
 
-# for abbr tag
+  - '<head>': Contains metadata such as the document title and external resources
+  - '<title>': Defines the name shown in the browser tab
+  - '<link>': Used to link favicon files
+  - '<blockquote>': Represents a long quotation taken from an external source or webpage. It doesn´t display the quotated text (it has to be added by CSS)
+  - '<q>': Define a short inline quotation inside a paragraph. It can display the quotated text by default
+  - '<abbr>': Define the abbreviation and it allows the user its full meaning using the 'title' atribute. Generally used for acronyms
+  - '<bdo>': Overrides the text direction using the 'dir' atribute and the values 'rtl' and 'ltr'. Generally used for foreing languages like arabic and Hebrew
 
--title  , it is used for many tags, in this case is used for abbr tag to define the abbreviation of a word.
+## What I have learned 
 
-# for bdo tag 
+While I was building this web page, I have learned these concepts:
 
--dir  it is used to change the text direction acording to these values: rtl (indicates from right to left) or ltr (indicates from left to right) it is used for other languages that are written like arabic. 
-
+- Favicons must be inside of '<head>' tag, some linked resources need to be added according to MIME type standard to have a well done described resources like image/png  need to be added for files with .png
+- Some types are not generally used like Apple touch
+- '<blockquotes>' define long independent quotations used apart from other paragraphs, while '<q>' define short inline quotes used inside other paragraphs, in this tag do not break the text flow and display the quotated tex by default
+- The '<abbr>' define semantic meaning, accesibility and better CEO position
+-  HTML is responsible for structure giving the webpage a skeleton to put all the content
+-  Using semantic tags is better than using div tag for meaning semantic text.
